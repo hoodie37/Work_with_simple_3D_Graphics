@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F437E62E-ADE8-40D5-B66B-E6A333C1FEEC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ing_Graf_12</RootNamespace>
+    <AssemblyName>Ing_Graf_12</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Num11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Num11.Designer.cs">
+      <DependentUpon>Num11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Num10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Num10.Designer.cs">
+      <DependentUpon>Num10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb1.Designer.cs">
+      <DependentUpon>Numb1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb2.Designer.cs">
+      <DependentUpon>Numb2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb3.Designer.cs">
+      <DependentUpon>Numb3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb9.Designer.cs">
+      <DependentUpon>Numb9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb7.Designer.cs">
+      <DependentUpon>Numb7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb8.Designer.cs">
+      <DependentUpon>Numb8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb5.Designer.cs">
+      <DependentUpon>Numb5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb13.Designer.cs">
+      <DependentUpon>Numb13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStart.Designer.cs">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Numb12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb12.Designer.cs">
+      <DependentUpon>Numb12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb14.Designer.cs">
+      <DependentUpon>Numb14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb15.Designer.cs">
+      <DependentUpon>Numb15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb16.Designer.cs">
+      <DependentUpon>Numb16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb17.Designer.cs">
+      <DependentUpon>Numb17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb18.Designer.cs">
+      <DependentUpon>Numb18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb4.Designer.cs">
+      <DependentUpon>Numb4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numb6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numb6.Designer.cs">
+      <DependentUpon>Numb6.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Num10.resx">
+      <DependentUpon>Num10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Num11.resx">
+      <DependentUpon>Num11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb1.resx">
+      <DependentUpon>Numb1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb2.resx">
+      <DependentUpon>Numb2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb3.resx">
+      <DependentUpon>Numb3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb5.resx">
+      <DependentUpon>Numb5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb7.resx">
+      <DependentUpon>Numb7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb8.resx">
+      <DependentUpon>Numb8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb9.resx">
+      <DependentUpon>Numb9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb13.resx">
+      <DependentUpon>Numb13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStart.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Numb12.resx">
+      <DependentUpon>Numb12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb14.resx">
+      <DependentUpon>Numb14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb15.resx">
+      <DependentUpon>Numb15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb16.resx">
+      <DependentUpon>Numb16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb17.resx">
+      <DependentUpon>Numb17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb18.resx">
+      <DependentUpon>Numb18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb4.resx">
+      <DependentUpon>Numb4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numb6.resx">
+      <DependentUpon>Numb6.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
